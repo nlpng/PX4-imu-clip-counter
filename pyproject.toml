@@ -1,10 +1,10 @@
 [tool.ruff]
-select = [
+lint.select = [
     "F", # pyflakes
     "E", # pycodestyle
     "W", # pycodestyle warnings
     "I", # isort
 ]
-ignore = ["E501"]
+lint.ignore = ["E501"]
 line-length = 88
 indent-width = 4

@@ -1,14 +1,11 @@
 from __future__ import print_function
-import os
-import pyulog
-import codecs
-import random
-import numpy as np
 
+import os
 import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter import filedialog
-from pyulog.core import ULog
+
+import pyulog
 
 
 class tkinterGUI:
@@ -100,4 +97,3 @@ class tkinterGUI:
 
 if __name__ == "__main__":
     clip_counter = tkinterGUI()
-
