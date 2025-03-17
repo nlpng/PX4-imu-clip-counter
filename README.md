@@ -13,3 +13,10 @@ Simply run the following command to start gui
 ```
 python clip_checker.py
 ```
+
+# Use pre-commit
+To use pre-commit you could setup from this repository with following command
+
+```
+pre-commit install
+```
